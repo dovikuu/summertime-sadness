@@ -10,34 +10,30 @@ body {
     font-family: PopRegular;
 }
 
-.bg-img {
-    /* The image used */
+}
+
+.header-image {
     background-image: url("photo-1561555287-0c32e5ff3409.jpeg");
-    min-height: 650px;
-  
-    /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 20px
-  
-    /* Needed to position the navbar */
-    position: relative;
+    object-fit: cover;
     
-  }
+
+
+    }
   
-  /* Position the navbar container inside the image */
   .container {
     position: absolute;
     right: 0;
-    margin: 20px;
     width: auto;
-  }
+    }
   
   /* The navbar */
   .topnav {
     overflow: hidden;
     text-transform: uppercase;
+    position: absolute;
+    top: 8px;
+    right: 16px;
   }
   
   /* Navbar links */
@@ -48,9 +44,38 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    text-shadow: 1px 1px 6px rgb(110, 119, 143);
   }
   
   .topnav a:hover {
     background-color:white;
-    color: black;
+    opacity: 0.5;
+    color: grey;
   }
+  .centered {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: white;
+  font-size: 60px;
+  font-family: PopLight;
+  border-bottom: 2px solid white;
+  text-shadow: 1px 1px 6px rgb(76, 81, 92);
+  
+  }
+
+  .centered-bottom {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-family: PopLight;
+    text-shadow: 1px 1px 6px rgb(76, 81, 92);
+    }
+
+    
