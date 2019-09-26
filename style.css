@@ -1,81 +1,71 @@
 @font-face {
-    font-family: PopLight;
-    src: url(font/Poppins/Poppins-Light.ttf);
+  font-family: PopLight;
+  src: url(font/Poppins/Poppins-Light.ttf);
 }
 @font-face {
-    font-family: PopRegular;
-    src: url(font/Poppins/Poppins-Regular.ttf);
+  font-family: PopRegular;
+  src: url(font/Poppins/Poppins-Regular.ttf);
 }
 body {
-    font-family: PopRegular;
+  font-family: PopRegular;
+}
+.header-iamge {
+  background-image: url(/photo-1561555287-0c32e5ff3409.jpeg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-}
-
-.header-image {
-    background-image: url("photo-1561555287-0c32e5ff3409.jpeg");
-    background-position: center;
-    object-fit: cover;
-    
-
-
-    }
-  
-  .container {
-    position: absolute;
-    right: 0;
-    width: auto;
-    }
-  
-  /* The navbar */
-  .topnav {
-    overflow: hidden;
-    text-transform: uppercase;
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    text-shadow: 1px 1px 6px rgb(110, 119, 143);
-  }
-  
-  .topnav a:hover {
-    background-color:white;
-    opacity: 0.5;
-    color: grey;
-  }
-  .centered {
+.centered-text {
+  text-align: center;
   position: absolute;
-  top: 35%;
-  left: 55%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  text-transform: uppercase;
   color: white;
-  font-size: 60px;
+  text-shadow: 1px 1px 6px rgb(110, 102, 128);
+}
+
+.main-text {
+  text-transform: uppercase;
   font-family: PopLight;
-  border-bottom: 2px solid white;
-  text-shadow: 1px 1px 6px rgb(76, 81, 92);
+  font-size: 60px;
+  border-bottom: 3px solid white;
+  margin: 0;
+}
+
+.bottom-text {
+  text-transform: uppercase;
+  font-family: PopLight;
+  font-size: 30px;
+  margin: 5px;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  text-transform: uppercase;
+  position: absolute;
+  top: 8px;
+  right: 16px;
   
-  }
+}
 
-  .centered-bottom {
-    position: absolute;
-    top: 45%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    color: white;
-    font-size: 25px;
-    font-family: PopLight;
-    text-shadow: 1px 1px 6px rgb(76, 81, 92);
-    }
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-shadow: 1px 1px 4px rgb(110, 119, 143);
+}
 
-    
+.topnav a:hover {
+  background-color:white;
+  opacity: 0.5;
+  color: black;
+}
