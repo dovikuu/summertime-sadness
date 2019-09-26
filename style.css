@@ -71,7 +71,7 @@ body {
 }
 
 .latest-articles {
-  background-color: rgb(221, 240, 247);
+  background-color: rgb(229, 241, 245);
   height: 300px;
   
 }
@@ -83,7 +83,9 @@ body {
   margin: 0;
   text-align: center;
   color: rgb(66, 63, 63);
-  padding: 225px 0 0 0 ;
+  padding: 225px 0 0 0;
+  
+
 
 }
 
@@ -132,6 +134,7 @@ body {
 .article-text-1 {
   background-color: white;
   text-align: center;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 
 }
@@ -139,6 +142,7 @@ body {
 .article-text-2 {
   background-color: white;
   text-align: center;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   
 
@@ -147,6 +151,7 @@ body {
 .article-text-3 {
   background-color: white;
   text-align: center;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 
 }
