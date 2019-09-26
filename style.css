@@ -7,7 +7,7 @@
   src: url(font/Poppins/Poppins-Regular.ttf);
 }
 body {
-  font-family: PopRegular;
+  font-family: PopLight;
 }
 .header-iamge {
   background-image: url(/photo-1561555287-0c32e5ff3409.jpeg);
@@ -56,7 +56,7 @@ body {
 /* Navbar links */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -65,7 +65,111 @@ body {
 }
 
 .topnav a:hover {
-  background-color:white;
+  background-color:rgb(216, 233, 247);
   opacity: 0.5;
   color: black;
 }
+
+.latest-articles {
+  background-color: rgb(221, 240, 247);
+  height: 300px;
+  
+}
+
+.latest-article {
+  text-transform: uppercase;
+  font-family: PopLight;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  color: rgb(66, 63, 63);
+  padding: 225px 0 0 0 ;
+
+}
+
+.articles {
+  height: 400px;
+  background-color: rgb(221, 240, 247);
+  
+}
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 175px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  grid-column-gap: 20px;
+  
+  
+}
+
+.article-1 {
+  background-color: white;
+  background-image: url(/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+
+.article-2 {
+  background-color: white;
+  background-image: url(/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ } 
+
+.article-3 {
+  background-color: white;
+  background-image: url(/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.article-text-1 {
+  background-color: white;
+  text-align: center;
+  
+
+}
+
+.article-text-2 {
+  background-color: white;
+  text-align: center;
+  
+  
+
+}
+
+.article-text-3 {
+  background-color: white;
+  text-align: center;
+  
+
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  
+}
+
+.about {
+  background-image: url(/photo-1562865657-162a8fabcf28.jpeg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+p {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
