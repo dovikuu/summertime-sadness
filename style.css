@@ -50,7 +50,6 @@ body {
   position: absolute;
   top: 8px;
   right: 16px;
-  
 }
 
 /* Navbar links */
@@ -72,11 +71,11 @@ body {
 
 .latest-articles {
   background-color: rgb(229, 241, 245);
-  height: 300px;
+  height: 200px;
   
 }
 
-.latest-article {
+.about-text {
   text-transform: uppercase;
   font-family: PopLight;
   font-size: 20px;
@@ -84,10 +83,17 @@ body {
   text-align: center;
   color: rgb(66, 63, 63);
   padding: 225px 0 0 0;
-  
+  }
 
-
+.latest-article{
+text-transform: uppercase;
+font-family: PopLight;
+text-align: center;
+padding: 150px;
+margin: 0px;
 }
+
+
 
 .articles {
   height: 400px;
@@ -115,6 +121,7 @@ body {
   background-image: url(/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 400px;
   } 
 
 .article-2 {
@@ -122,6 +129,7 @@ body {
   background-image: url(/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 400px;
  } 
 
 .article-3 {
@@ -129,48 +137,56 @@ body {
   background-image: url(/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 400px;
 } 
 
 .article-text-1 {
   background-color: white;
   text-align: center;
   box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  min-width: 400px;
+  }
 
-}
+  .article-text-1 a {
+    color: black;
+  }
+
 
 .article-text-2 {
   background-color: white;
   text-align: center;
   box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  
+  min-width: 400px;
+  }
 
-}
+  .article-text-2 a {
+    color: black;
+  }
 
 .article-text-3 {
   background-color: white;
   text-align: center;
   box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  min-width: 400px;
+  }
 
-}
+  .article-text-3 a {
+    color: black;
+  }
 
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 500px;
-  
-}
+  }
 
 .about {
   background-image: url(/photo-1562865657-162a8fabcf28.jpeg);
-  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
+ 
 }
 
 p {
@@ -178,3 +194,75 @@ p {
   padding-left: 10%;
 }
 
+form {
+  width: 100%;
+  height: 50px;
+  background-color:  rgb(221, 240, 247);
+  padding: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+form input {
+  height: 20px;
+  width: 200px;
+}
+
+form input[type="email"] {
+  padding-left: 10px;
+}
+
+button {
+  height: 28px;
+  width: 100px;
+  background-color: rgb(209, 204, 204);
+}
+
+button:hover {
+  background-color: rgb(96, 171, 201);
+  color: white;
+}
+
+/* The navbar */
+.bottomnav {
+  text-transform: uppercase;
+  top: 8px;
+  right: 16px;
+  text-align: right;
+}
+
+/* Navbar links */
+.bottomnav a {
+  float: right;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+ 
+}
+
+.bottomnav a:hover {
+  
+}
+
+article {
+position: absolute;
+top: 500px;
+left: 100px;
+right: 100px;
+background-color: white;
+text-align: center;
+padding-bottom: 50px;
+
+}
+
+article h2 {
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.article-background {
+  background-color: rgb(221, 240, 247);
+  height: 800px;
+}
