@@ -118,7 +118,7 @@ margin: 0px;
 
 .article-1 {
   background-color: white;
-  background-image: url(../img/3.jpg);
+  background-image: url(/img/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
@@ -126,7 +126,7 @@ margin: 0px;
 
 .article-2 {
   background-color: white;
-  background-image: url(../img/1.jpg);
+  background-image: url(img/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
@@ -134,7 +134,7 @@ margin: 0px;
 
 .article-3 {
   background-color: white;
-  background-image: url(../img/2.jpg);
+  background-image: url(./img/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
