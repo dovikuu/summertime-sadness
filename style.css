@@ -10,7 +10,7 @@ body {
   font-family: PopLight;
 }
 .header-iamge {
-  background-image: url(./img/photo-1561555287-0c32e5ff3409.jpeg);
+  background-image: url(/img/photo-1561555287-0c32e5ff3409.jpeg);
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
