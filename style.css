@@ -10,7 +10,7 @@ body {
   font-family: PopLight;
 }
 .header-iamge {
-  background-image: url(/img/photo-1561555287-0c32e5ff3409.jpeg);
+  background-image: url(img/photo-1561555287-0c32e5ff3409.jpeg);
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ margin: 0px;
 
 .article-1 {
   background-color: white;
-  background-image: url(./img/3.jpg);
+  background-image: url(img/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
@@ -126,7 +126,7 @@ margin: 0px;
 
 .article-2 {
   background-color: white;
-  background-image: url(./img/1.jpg);
+  background-image: url(img/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
@@ -134,7 +134,7 @@ margin: 0px;
 
 .article-3 {
   background-color: white;
-  background-image: url(./img/2.jpg);
+  background-image: url(img/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
@@ -181,7 +181,7 @@ margin: 0px;
   }
 
 .about {
-  background-image: url(./img/photo-1562865657-162a8fabcf28.jpeg);
+  background-image: url(img/photo-1562865657-162a8fabcf28.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
